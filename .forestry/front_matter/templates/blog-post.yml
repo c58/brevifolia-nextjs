@@ -1,4 +1,10 @@
 ---
 label: Blog post
 hide_body: false
-fields: []
+display_field: test
+fields:
+- name: test
+  type: text
+  config:
+    required: false
+  label: Test
